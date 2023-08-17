@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 class Table{
-  public static void main(String args[]){
+  public static void main(String args[]){//Command Line
     Scanner sc=new Scanner(System.in);
     System.out.println("Enter The Number That You Want ToTake Of Its Table :");
     int num,i;
