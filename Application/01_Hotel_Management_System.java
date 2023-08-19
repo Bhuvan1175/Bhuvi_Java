@@ -80,7 +80,8 @@ class Hotel {
 
         double totalBill = (bill - discount) + 0.18 * bill; // gst is 18%
         System.out.println("Your bill is (including gst and discount): " + totalBill);
-        System.out.println("Thank You ;), Visit again");
+        System.out.println("Thank You , Visit again");
+     
     }
 }
 
