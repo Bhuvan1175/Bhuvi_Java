@@ -22,7 +22,7 @@ class Hotel {
             System.out.println("Enter the item number you want to order : ");
             int item_Number =sc.nextInt();
             System.out.println("You Entered the " + item_Number + "Number Item From Menu Card Of Our Hotel");
-            char ch;
+    
 
             switch (item_Number) {
                 case 1:
@@ -63,7 +63,9 @@ class Hotel {
             System.out.println("Enter The Y or N: ");
             choice = sc.next();
             if (choice.equals("Y") || choice.equals("y")) {
-                continue;
+                    System.out.println("Enter the item number you want to order : ");
+                    int item_Number =sc.nextInt();
+                    System.out.println("You Entered the " + item_Number + "Number Item From Menu Card Of Our Hotel");
             } else {
                 break;
             }
