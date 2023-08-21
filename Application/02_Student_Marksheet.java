@@ -1,4 +1,3 @@
- 
 import java.util.Scanner;
 class Marksheet {
     public static void main(String arg[]) {
