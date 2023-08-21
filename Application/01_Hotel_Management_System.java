@@ -77,7 +77,6 @@ class Hotel {
         } else if (bill > 1000) {
             discount = 0.20 * bill;
         }
-
         double totalBill = (bill - discount) + 0.18 * bill; // gst is 18%
         System.out.println("Your bill is (including gst and discount): " + totalBill);
         System.out.println("Thank You , Visit again");
